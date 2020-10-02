@@ -11,7 +11,7 @@ Vue.use(VueFlashMessage, {
 });
 
 const vm = new Vue();
-const baseURL = 'http://localhost:3000/tasks/';
+const baseURL = 'tasks/';
 
 const handleError = fn => (...params) =>
   fn(...params).catch(error => {
